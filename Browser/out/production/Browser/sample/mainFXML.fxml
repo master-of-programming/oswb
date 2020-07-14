@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="txt1" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="1242.0" />
+      <Button fx:id="but_go" layoutX="1279.0" layoutY="14.0" mnemonicParsing="false" onAction="#but_go_Act" text="Button" />
+      <WebView fx:id="wv" layoutX="423.0" layoutY="124.0" prefHeight="613.0" prefWidth="761.0" />
+   </children>
+</AnchorPane>
