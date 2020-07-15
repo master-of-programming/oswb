@@ -8,3 +8,11 @@
 |Javascript Enabled|
 |Backward/Forward(JUST MOUSE RİGHT CLİCK)|
 |Optimized Adress Bar|
+
+|------------FEATURES------------|
+|SETTİNGS MENU|
+|HİSTORY|
+|CREATİNG PASSWORD|
+|PASSWORD STORAGE|
+|LANGUAGE MODE|
+|DARK MODE|
