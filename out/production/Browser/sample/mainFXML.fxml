@@ -6,8 +6,10 @@
 
 <AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <TextField fx:id="txt1" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="1242.0" />
-      <Button fx:id="but_go" layoutX="1279.0" layoutY="14.0" mnemonicParsing="false" onAction="#but_go_Act" text="Button" />
-      <WebView fx:id="wv" layoutX="423.0" layoutY="124.0" prefHeight="613.0" prefWidth="761.0" />
+      <TextField fx:id="txt1" layoutX="163.0" layoutY="14.0" prefHeight="25.0" prefWidth="1144.0" />
+      <Button fx:id="but_go" layoutX="1314.0" layoutY="14.0" mnemonicParsing="false" onAction="#but_go_Act" text="Go !" />
+      <WebView fx:id="wv" layoutX="14.0" layoutY="50.0" prefHeight="690.0" prefWidth="1335.0" />
+      <Button fx:id="but_reload" layoutX="76.0" layoutY="14.0" mnemonicParsing="false" onAction="#but_reload_Act" text="Reload" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Home" fx:id="but_Home" onAction="#but_Home_Act"/>
    </children>
 </AnchorPane>
