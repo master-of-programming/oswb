@@ -1,6 +1,8 @@
 module Browser {
+    requires java.base;
     requires javafx.fxml;
-    requires javafx.controls;
     requires javafx.web;
+    requires javafx.controls;
+    requires java.desktop;
     opens sample;
 }
